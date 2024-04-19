@@ -1,13 +1,17 @@
 {
   "name": "srt-to-csv-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web application for converting SRT files to CSV format.",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["srt", "csv", "converter", "webapp"],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "@nestjs/common": "^10.3.7",
@@ -23,5 +27,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^12.0.0",
+    "typescript": "^4.0.0"
   }
 }
